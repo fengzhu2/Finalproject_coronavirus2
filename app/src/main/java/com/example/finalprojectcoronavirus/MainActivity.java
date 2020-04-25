@@ -25,10 +25,8 @@ public class MainActivity extends AppCompatActivity {
     private View.OnClickListener clickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-
         }
-    }
-
+    };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,17 +38,6 @@ public class MainActivity extends AppCompatActivity {
         map.setOnClickListener(clickListener);
         trends = (Button) findViewById(R.id.trends);
         trends.setOnClickListener(clickListener);
-
-        getData();
-    }
-    private void getData() {
-        ReferenceQueue Q = Volley.newRequestQueue(getActivity());
-        String url = "https://coronavirus.jhu.edu/us-map";
-        StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
-            @Override
-            public void onResponse(String response) {
-
-            }
-        })
     }
 }
+

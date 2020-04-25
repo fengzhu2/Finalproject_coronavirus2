@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Finalproject coronavirus</string>
+    <string name="map">MAP</string>
+    <string name="covid_19_update">COVID-19 UPDATE</string>
+    <string name="_30">30</string>
+    <string name="trends">Trends</string>
+    <string name="tips">Tips</string>
 </resources>
