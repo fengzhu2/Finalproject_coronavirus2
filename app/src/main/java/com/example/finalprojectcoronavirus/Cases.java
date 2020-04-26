@@ -16,7 +16,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class Tips extends AppCompatActivity {
+public class Cases extends AppCompatActivity {
     private TextView caseUpdate, caseDeath, caseRecovered;
 
     @Override

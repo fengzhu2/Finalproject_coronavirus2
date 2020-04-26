@@ -40,7 +40,6 @@
         android:layout_height="wrap_content"
         android:text="TIPS"
         android:layout_below="@id/map"
-        layout
         android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
