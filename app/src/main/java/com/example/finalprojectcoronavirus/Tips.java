@@ -15,8 +15,8 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
-public class Cases extends AppCompatActivity {
+/** this actually is the logic for cases, tried to change the name but app kept crashing after the change*/
+public class Tips extends AppCompatActivity {
     private TextView caseUpdate, caseDeath, caseRecovered;
 
     @Override

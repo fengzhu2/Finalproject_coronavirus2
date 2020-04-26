@@ -48,9 +48,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
+/** this actually opens cases, tried to change it but app kept crashing after the change*/
     public void openTips() {
-        Intent intent = new Intent(this, Cases.class);
+        Intent intent = new Intent(this, Tips.class);
         startActivity(intent);
     }
 
