@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 openMap();
             }
         });
-        actualTips = findViewById(R.id.button);
+        actualTips = findViewById(R.id.tipsActual);
         actualTips.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
