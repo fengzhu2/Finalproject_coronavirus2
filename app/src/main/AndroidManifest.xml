@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Main2ActivityTips"></activity>
         <activity android:name=".Tips" />
         <activity android:name=".Map" />
         <activity android:name=".MainActivity">

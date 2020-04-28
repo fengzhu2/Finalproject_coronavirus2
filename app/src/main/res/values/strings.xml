@@ -8,4 +8,5 @@
     <string name="data" />
     <string name="recovered">Recovered</string>
     <string name="cases">CASES</string>
+    <string name="actualTips">TIPS</string>
 </resources>

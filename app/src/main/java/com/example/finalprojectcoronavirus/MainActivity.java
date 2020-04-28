@@ -28,6 +28,7 @@ import org.json.JSONObject;
 public class MainActivity extends AppCompatActivity {
     private Button tips;
     private Button map;
+    private Button actualTips;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,8 +48,22 @@ public class MainActivity extends AppCompatActivity {
                 openMap();
             }
         });
+        actualTips = findViewById(R.id.button);
+        map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMain2();
+            }
+        });
     }
-/** this actually opens cases, tried to change it but app kept crashing after the change*/
+
+    private void openMain2() {
+        Intent intent = new Intent(this, Main2Activity.class);
+        startActivity(intent);
+
+    }
+
+    /** this actually opens cases, tried to change it but app kept crashing after the change*/
     public void openTips() {
         Intent intent = new Intent(this, Tips.class);
         startActivity(intent);
