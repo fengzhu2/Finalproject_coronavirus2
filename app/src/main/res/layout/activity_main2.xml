@@ -5,13 +5,40 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".Main2Activity">
+
 <TextView
     android:id="@+id/newTips"
-    android:text="TIPS"
+    android:text="@string/TIPS"
     android:textSize="35sp"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:layout_centerHorizontal="true"
-    android:layout_centerVertical="true"
+    android:textColor="@color/colorBlack"
     />
+    <Button
+        android:id="@+id/minigame"
+        android:text="@string/surprise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        />
+
+    <TextView
+        android:id="@+id/randomTips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/colorBlack"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        />
+    <Button
+        android:id="@+id/random"
+        android:text="@string/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
 </RelativeLayout>
